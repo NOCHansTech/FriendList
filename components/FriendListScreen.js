@@ -7,35 +7,35 @@ const friendsData = [
     id: 1,
     name: 'Amanda Zara Kirana',
     photo: require('../assets/1.jpg'),
-    age: '19th',
+    email: 'amandazahara@gmail.com',
     description: '08589098098',
   },
   {
     id: 2,
     name: 'Adeline Zivana Rania',
     photo: require('../assets/2.jpg'),
-    age: '19th',
+    email: 'adelinezivana@gmail.com',
     description: '085878980976'
   },
   {
     id: 3,
     name: 'Amanda Beatrice Kirana',
     photo: require('../assets/3.jpg'),
-    age: '18th',
+    email: 'amandabeatrice@gmail.com',
     description: '08587909878'
   },
   {
     id: 4,
     name: 'Amira Putri Salma',
     photo: require('../assets/4.jpg'),
-    age: '18th',
+    email: 'amiraputri@gmail.com',
     description: '0858256780987'
   },
   {
     id: 5,
     name: 'Bella Zahra Amanda',
     photo: require('../assets/5.jpg'),
-    age: '19th',
+    email: 'bellazahra@gmail.com',
     description: '085843459845'
   },
 ];

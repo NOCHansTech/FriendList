@@ -10,7 +10,7 @@ const FriendDetailScreen = ({ route }) => {
     <View style={styles.container}>
       <Image source={friend.photo} style={styles.image} />
       <Text style={styles.name}>{friend.name}</Text>
-      <Text style={styles.age}>{friend.age}</Text>
+      <Text style={styles.email}>{friend.email}</Text>
       <Text style={styles.description}>{friend.description}</Text>
       <TouchableOpacity
         style={styles.button}
@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginBottom: 10,
   },
-      age: {
+  email: {
     fontSize: 18,
     textAlign: 'center',
     paddingHorizontal: 20,
